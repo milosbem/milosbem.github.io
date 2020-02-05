@@ -1,0 +1,77 @@
+body {
+  background-image: url("../img/ancap.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-color: #fdfdfd;
+	text-align: center;
+	color: #555555;
+  }
+  
+div#top {
+  font-size: 20px;
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+  }
+  
+h1.top {
+  margin-bottom: 0;
+  }
+  
+p.top {
+  margin: 0;
+  }
+  
+div#bottom {
+  font-size: 1.3vw;
+	color: gray;
+	font-family: calligraffitiregular;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	position: fixed;
+	bottom: 10px;
+  }
+  
+a {
+  color: #555555;
+	text-decoration: none;
+  }
+  
+a:hover {
+  text-decoration: underline;
+  }
+
+a>img {
+	height: 25px;
+	margin-top: 5px;
+  }
+
+a>img:hover  {
+  text-decoration: none;
+	opacity: 0.8;
+  }
+
+a.img:hover {
+	text-decoration: none;
+  }
+
+@media only screen and (max-device-width: 480px) {
+  div#top {font-size: 40px;}  
+  a>img {height: 50px; margin-top: 10px;}  
+  div#bottom {font-size: 40px;}
+}
+
+@media only screen and (max-height: 700px) {
+	body {background-image: none;}
+	}
+  
+@media only screen and (max-height: 300px) {
+	div#bottom {display: none;}
+	}
+	
+@font-face {
+	font-family: 'calligraffitiregular';
+	src: url('Calligraffiti-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
