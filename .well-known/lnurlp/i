@@ -1,0 +1,8 @@
+{
+  "callback": "https://pay.btcslovnik.cz/lnurlp/5",
+  "maxSendable": 1000000000,
+  "minSendable": 10000,
+  "metadata": "[[\"text/identifier\",\"i@milosbem.net\"],[\"text/plain\",\"Pay to i@milosbem.net\"]]",
+  "commentAllowed": 255,
+  "tag": "payRequest"
+}
