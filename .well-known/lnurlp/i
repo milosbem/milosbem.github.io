@@ -1,1 +1,0 @@
-{"status":"OK","callback":"https://lnpay.cz/.well-known/lnurlp/i","tag":"payRequest","maxSendable":2000000000,"minSendable":1000,"metadata":"[[\"text/identifier\",\"i@milosbem.net\"],[\"text/plain\",\"Satoshis to i@milosbem.net.\"]]","commentAllowed":0}
